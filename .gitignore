@@ -1,0 +1,5 @@
+.env
+vendor
+storage/clockwork
+node_modules
+public/build

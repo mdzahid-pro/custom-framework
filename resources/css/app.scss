@@ -1,0 +1,37 @@
+@import "./variables.scss";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons";
+@import "~datatables.net-dt/css/jquery.dataTables.css";
+
+* {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+body {
+  background-color: #e7ebee;
+}
+
+svg.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.nav-link {
+  color: #9aa0a9;
+
+  &.active {
+    background-color: inherit !important;
+    color: #57585A !important;
+  }
+
+  &:hover, &:focus {
+    color: #57585A !important;
+  }
+}
+
+.content-body {
+  background-color: #FEFEFF;
+  min-height: 500px;
+  border-radius: 1rem;
+  padding: 20px 25px 25px;
+}
