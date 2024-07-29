@@ -12,6 +12,7 @@ use Doctrine\ORM\Mapping\HasLifecycleCallbacks;
 use Doctrine\ORM\Mapping\Id;
 use Doctrine\ORM\Mapping\Table;
 
+// this class has so many setter and getter method for following encapsulation
 #[Entity, Table(name: 'password_resets')]
 #[HasLifecycleCallbacks]
 class PasswordReset
