@@ -12,12 +12,14 @@ use Doctrine\ORM\Mapping\HasLifecycleCallbacks;
 use Doctrine\ORM\Mapping\Id;
 use Doctrine\ORM\Mapping\Table;
 
+// this class has so many setter and getter method for following encapsulation
 #[Entity, Table(name: 'password_resets')]
 #[HasLifecycleCallbacks]
 class PasswordReset
 {
     use HasTimestamps;
 
+    // this column is a php attribute class
     #[Id, Column(options: ['unsigned' => true]), GeneratedValue]
     private int $id;
 
@@ -78,7 +80,7 @@ class PasswordReset
 
         return $this;
     }
-    
+
     // in laravel 10 there is 3 new required attribute for getToken function. If you upgrade to it remember to migrate this.
     public function getToken(): string
     {
