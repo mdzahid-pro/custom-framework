@@ -21,6 +21,7 @@ class PasswordReset
     #[Id, Column(options: ['unsigned' => true]), GeneratedValue]
     private int $id;
 
+    // this column is a php attribute class
     #[Column]
     private string $email;
 
@@ -78,7 +79,7 @@ class PasswordReset
 
         return $this;
     }
-    
+
     // in laravel 10 there is 3 new required attribute for getToken function. If you upgrade to it remember to migrate this.
     public function getToken(): string
     {
