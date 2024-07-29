@@ -18,10 +18,10 @@ class PasswordReset
 {
     use HasTimestamps;
 
+    // this column is a php attribute class
     #[Id, Column(options: ['unsigned' => true]), GeneratedValue]
     private int $id;
 
-    // this column is a php attribute class
     #[Column]
     private string $email;
 
