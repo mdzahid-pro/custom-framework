@@ -81,7 +81,7 @@ class PasswordReset
         return $this;
     }
 
-    // in laravel 10 there is 3 new required attribute for getToken function. If you upgrade to it remember to migrate this.
+    // in laravel 10 there is 3 new required attribute for getToken function. If you upgrade to it remember to migrate this. Remember.
     public function getToken(): string
     {
         return $this->token;
