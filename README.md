@@ -1,5 +1,7 @@
 ### Learned from learn php the right way course
 
+
+
 ### Branches
 The **main** branch will always contain the latest or most up-to-date code for the project. If you want to just work with the finished project/code then stick with the main branch. Each lesson will also have dedicated branches: **PX_Start** & **PX_End**. **X** in here indicates the lesson number & **P** indicates the section. You will find lesson numbers in the thumbnail of the videos. The **Start** & **End** simply indicate the starting code at the beginning of the video & the ending code by the end of the video. Note that some videos may not contain the **PX_End** if the code was not changed. If you want to follow along the video & code along with me then pick the branch appropriate for the lesson that you are watching & make sure it's the one with **_Start**. If you just want to see the solution or the final code for that lesson then you can use the branch appropriate for the lesson with **_End** (if applicable).
 
